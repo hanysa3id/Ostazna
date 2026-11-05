@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /onboarding
+Disallow: /dashboard
+Disallow: /students
+Disallow: /groups
+Disallow: /schedule
+Disallow: /attendance
+Disallow: /finance
+Disallow: /notifications
+Disallow: /settings
+
+Sitemap: https://ostazna.com/sitemap.xml

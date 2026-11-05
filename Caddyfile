@@ -1,0 +1,51 @@
+{
+    email ops@ostazna.com
+    on_demand_tls {
+        # Caddy asks this endpoint before issuing a cert for any unknown hostname.
+        # The endpoint must return 200 if the hostname is a registered teacher custom_domain.
+        ask http://app:3000/api/tls/check
+    }
+}
+
+# Catch-all for verified teacher custom domains.
+# (Anything not matched by the named blocks below.)
+:443 {
+    tls {
+        on_demand
+    }
+    encode zstd gzip
+    reverse_proxy app:3000
+}
+
+# Apex + all subdomains share the same Next.js app.
+# Wildcard cert via Cloudflare DNS-01.
+ostazna.com, *.ostazna.com {
+    tls {
+        dns cloudflare {env.CF_API_TOKEN}
+    }
+
+    encode zstd gzip
+
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        Permissions-Policy "interest-cohort=()"
+        -Server
+    }
+
+    reverse_proxy app:3000
+
+    log {
+        output stdout
+        format json
+    }
+}
+
+# Internal monitoring on a separate path-protected route.
+status.ostazna.com {
+    tls {
+        dns cloudflare {env.CF_API_TOKEN}
+    }
+    reverse_proxy uptime-kuma:3001
+}

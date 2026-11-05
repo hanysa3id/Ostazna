@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "brand": "Ostazna",
+    "title": "Ostazna — The Egyptian Private Tutor Platform",
+    "description": "An all-in-one platform for students, scheduling, attendance and finance — built for the Egyptian private tutor."
+  },
+  "brand": {
+    "name": "Ostazna",
+    "tagline": "Tutor Business Platform",
+    "domain": "ostazna.com"
+  },
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "features": "Features",
+    "faq": "FAQ",
+    "login": "Sign In",
+    "register": "Get Started",
+    "dashboard": "Dashboard",
+    "students": "Students",
+    "groups": "Groups",
+    "schedule": "Schedule",
+    "attendance": "Attendance",
+    "finance": "Finance",
+    "payments": "Payments",
+    "expenses": "Expenses",
+    "invoices": "Invoices",
+    "exams": "Exams",
+    "reports": "Reports",
+    "notifications": "Notifications",
+    "site": "My Site",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Sign Out",
+    "search": "Quick search",
+    "search_placeholder": "Search students, groups, payments…",
+    "menu": "Menu"
+  },
+  "marketing": {
+    "hero": {
+      "badge": "New · Version 1.0",
+      "title": "Move your tutoring business to the cloud",
+      "subtitle": "An all-in-one platform for students, scheduling, attendance and finance — built for the Egyptian private tutor.",
+      "cta_primary": "Start free",
+      "cta_secondary": "See pricing",
+      "trust_no_cc": "No credit card",
+      "trust_quick": "Set up in 3 minutes",
+      "trust_support": "Bilingual support",
+      "prev": "Previous",
+      "next": "Next",
+      "slide": "Slide {n}"
+    },
+    "stats": {
+      "badge": "Real numbers",
+      "title": "Trusted by",
+      "title_highlight": "hundreds of tutors",
+      "subtitle": "A platform that grew with every new tutor and student.",
+      "live": "LIVE",
+      "trust": "Join over <b>500 tutors</b> in Egypt",
+      "trust_count": "500 tutors",
+      "trust_prefix": "Join over",
+      "trust_suffix": "in Egypt",
+      "growth_teachers": "↑ Steadily growing",
+      "growth_students": "↑ 20% monthly growth",
+      "uptime": "Reliable 24/7",
+      "support_response": "Instant response"
+    },
+    "features": {
+      "eyebrow": "Core features",
+      "title": "Everything you need to manage your students",
+      "subtitle": "Tools thoughtfully built for the Egyptian tutor — click any feature for details.",
+      "learn_more": "Learn more",
+      "secondary_eyebrow": "All-in-one platform",
+      "secondary_title": "All your tools in one place",
+      "students": { "title": "Student management", "body": "Full profile per student, groups, custom fields, safe archiving." },
+      "schedule": { "title": "Smart schedule", "body": "Recurring and one-off sessions with automated reminders." },
+      "finance": { "title": "Finance", "body": "Track payments, late-payer alerts, monthly reports." },
+      "site": { "title": "Your own site", "body": "Auto subdomain + CMS so you look professional." }
+    },
+    "steps": {
+      "eyebrow": "Refreshingly simple",
+      "title": "Get started in 3 steps",
+      "subtitle": "A smooth journey from sign-up to your first lesson.",
+      "step1": { "title": "Sign up & set things up", "body": "Free account in under a minute, with a quick wizard for your academic year.", "cta": "Create your account" },
+      "step2": { "title": "Add your students & groups", "body": "Manually or in bulk via CSV. Connect students to groups and schedules.", "cta": "How it works" },
+      "step3": { "title": "Launch and monitor", "body": "Take attendance, collect payments, send reminders, and track your growth.", "cta": "Explore finance" }
+    },
+    "testimonials": {
+      "eyebrow": "User reviews",
+      "title_prefix": "Tutors who trust",
+      "title_brand": "Ostazna",
+      "subtitle": "Real stories from tutors who took their work online."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Answers to your top questions"
+    },
+    "cta_footer": {
+      "title": "Ready to take your business online?",
+      "subtitle": "Join hundreds of tutors who moved their workflow online with style and ease.",
+      "primary": "Start free",
+      "explore": "Explore features"
+    }
+  },
+  "footer": {
+    "about": "An all-in-one platform for the Egyptian tutor — manage students, schedules, finance and your own site, all professionally.",
+    "platform": "Platform",
+    "legal": "Legal",
+    "contact": "Contact",
+    "support_24h": "24-hour support",
+    "rights": "All rights reserved.",
+    "made_with_love": "Made with love",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "refund": "Refund Policy"
+  },
+  "pricing": {
+    "title": "Simple plans, no surprises",
+    "subtitle": "Start free, upgrade as your roster grows.",
+    "per_month": "/mo",
+    "egp": "EGP",
+    "free_label": "Free",
+    "popular": "Most popular",
+    "students_cap": "Up to {count} students",
+    "unlimited_students": "Unlimited students",
+    "wa_cap": "{count} WhatsApp messages/mo",
+    "wa_unlimited": "Unlimited WhatsApp",
+    "cta": "Choose plan",
+    "current_plan": "Your current plan",
+    "tiers": {
+      "free": { "name": "Free", "desc": "Try with zero risk." },
+      "basic": { "name": "Basic", "desc": "For tutors with a moderate roster." },
+      "pro": { "name": "Pro", "desc": "For full-time tutors with add-ons included." },
+      "premium": { "name": "Premium", "desc": "Everything, no limits." }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in",
+      "subtitle": "Welcome back — enter your details to continue.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "with_google": "Continue with Google",
+      "or": "or",
+      "no_account": "No account?",
+      "register_link": "Create one",
+      "forgot": "Forgot password?"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start your free trial today — no credit card needed.",
+      "name": "Full name",
+      "name_placeholder": "Your full name",
+      "email": "Email",
+      "password": "Password",
+      "password_hint": "At least 8 characters.",
+      "submit": "Create account",
+      "submitting": "Creating…",
+      "have_account": "Already have an account?",
+      "login_link": "Sign in",
+      "terms_agree": "By creating an account you agree to the <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>."
+    },
+    "forgot": {
+      "title": "Recover password",
+      "subtitle": "We'll send a reset link to your email.",
+      "email": "Email",
+      "submit": "Send link",
+      "back_to_login": "Back to sign in",
+      "sent": "Password reset link sent. Check your inbox."
+    },
+    "hero_panel": {
+      "badge": "Egypt's #1 tutor platform",
+      "title_l1": "An all-in-one platform",
+      "title_l2": "to run your tutoring business",
+      "subtitle": "Join hundreds of tutors who took their work online with style and ease.",
+      "feature1_t": "Comprehensive student management",
+      "feature1_d": "Up to 500 students with full profiles",
+      "feature2_t": "Auto-generated schedule",
+      "feature2_d": "Recurring sessions + notifications",
+      "feature3_t": "Reports & visual analytics",
+      "feature3_d": "Revenue, attendance, performance",
+      "feature4_t": "Full data security",
+      "feature4_d": "RLS + 2FA + daily backups"
+    },
+    "errors": {
+      "invalid_credentials": "Invalid email or password.",
+      "email_in_use": "This email is already in use.",
+      "weak_password": "Password is too weak (8 characters minimum).",
+      "rate_limit": "Too many attempts — try again in a few minutes.",
+      "network": "Connection failed — check your internet.",
+      "generic": "Something went wrong, please try again."
+    }
+  },
+  "onboarding": {
+    "step_of": "Step {current} of {total}",
+    "next": "Next",
+    "back": "Back",
+    "finish": "Start using the platform",
+    "saving": "Saving…",
+    "steps": {
+      "profile": { "title": "Your profile", "subtitle": "Tell us a bit about yourself." },
+      "year": { "title": "Academic year", "subtitle": "We'll set up the current year for you." },
+      "grades": { "title": "Grades you teach", "subtitle": "Select the levels you cover." },
+      "group": { "title": "First group", "subtitle": "Create one group to get going." },
+      "subdomain": { "title": "Your platform site", "subtitle": "Pick your subdomain." },
+      "done": { "title": "All set", "subtitle": "You're ready to go." }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, {name}",
+    "today": "Today",
+    "this_week": "This week",
+    "this_month": "This month",
+    "cards": {
+      "active_students": "Active students",
+      "month_revenue": "Revenue this month",
+      "today_sessions": "Today's sessions",
+      "overdue": "Overdue payments",
+      "attendance_rate": "Attendance rate (week)"
+    },
+    "sections": {
+      "today_schedule": "Today's schedule",
+      "recent_payments": "Recent payments",
+      "overdue_students": "Overdue students",
+      "quick_actions": "Quick actions"
+    },
+    "quick": {
+      "add_student": "Add student",
+      "add_group": "Add group",
+      "record_payment": "Record payment",
+      "take_attendance": "Take attendance"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "save_changes": "Save changes",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "back": "Back",
+    "next": "Next",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading…",
+    "saving": "Saving…",
+    "submitting": "Submitting…",
+    "deleting": "Deleting…",
+    "empty": "Nothing here yet.",
+    "error": "An error occurred.",
+    "success": "Done.",
+    "required": "Required",
+    "optional": "Optional",
+    "view_all": "View all",
+    "view_details": "View details",
+    "actions": "Actions",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "date": "Date",
+    "status": "Status",
+    "amount": "Amount",
+    "notes": "Notes",
+    "close": "Close",
+    "open": "Open"
+  },
+  "errors": {
+    "page_title": "Something went wrong",
+    "page_subtitle": "An unexpected error occurred — please try again.",
+    "try_again": "Try again",
+    "go_home": "Go home",
+    "not_found_title": "Page not found",
+    "not_found_subtitle": "The page you tried to reach doesn't exist or was moved."
+  }
+}
